@@ -1,37 +1,20 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { Stage, Layer, Rect } from "react-konva";
+import { Stage, Layer, Wedge } from "react-konva";
 
 const App = () => {
   return (
     <Stage width={window.innerWidth} height={window.innerHeight}>
       <Layer>
-        <Rect
-          x={20}
-          y={20}
-          width={100}
-          height={50}
-          fill="green"
-          stroke="black"
-          strokWidth={4}
-        />
-        <Rect
-          x={150}
-          y={40}
-          width={100}
-          height={50}
-          fill="red"
-          shadowBlur={10}
-          stroke="black"
-          cornerRadius={10}
-        />
-        <Rect
-          x={50}
-          y={120}
-          width={100}
-          height={100}
-          fill="blue"
-          cornerRadius={[0, 10, 20, 30]}
+        <Wedge
+          x={100}
+          y={100}
+          radius={70}
+          angle={60}
+          fill={"red"}
+          stroke={"black"}
+          strokeWidth={4}
+          rotation={-120}
         />
       </Layer>
     </Stage>

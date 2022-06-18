@@ -1,11 +1,12 @@
 {
-  "name": "projectrk002",
+  "name": "projectrk007",
   "version": "0.1.0",
   "private": true,
+  "dependencies": "how to create Wedge",
   "keywords": [
     "react-konva",
     "react",
-    "Rect"
+    "Wedge"
   ],
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
